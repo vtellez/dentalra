@@ -4,7 +4,7 @@
 <html lang="en">
 <!--<![endif]-->
 <head>
-  <title>{{ trans('ld.'.$section )}} - Fitness Manager Index</title>
+  <title>{{ page.title }} - {{ site.title }}</title>
   <!--meta info-->
   <meta charset="utf-8">
   <!-- <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no"> -->
@@ -12,7 +12,6 @@
   <meta name="keywords" content="gym, fitness, gerencia, administración, fitnessmanagerindex, social, gym, workout, entrenamientos, manager, indicadores, estadísticas, negocio, bussines">
   <meta name="description" content="FMI - Fitness Manager Index">
   <meta name="robots" content="index,follow">
-  <link rel="shortcut icon" href="{{ '/common/img/favicon.ico' | prepend: site.baseurl }}" type="image/x-icon" />
   <!--web fonts-->
   <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic' rel='stylesheet' type='text/css'>
   <!--libs css-->
@@ -129,22 +128,37 @@
               {% endif %}
                 <a class="color_dark fs_large relative r_xs_corners" href="/servicios">Servicios
                 </a>
-              </li>
-              <li class="container3d relative f_xs_none m_xs_bottom_5">
+              {% if page.id == "acceso" %}
+               <li class="current container3d relative f_xs_none m_xs_bottom_5">
+              {% else %}
+               <li class="container3d relative f_xs_none m_xs_bottom_5">
+              {% endif %}
                 <a class="color_dark fs_large relative r_xs_corners" href="{{ url('landing/join') }}"> Acceso
                 </a>
               </li>
-              <li class="container3d relative f_xs_none m_xs_bottom_5">
+              {% if page.id == "novedades" %}
+               <li class="current container3d relative f_xs_none m_xs_bottom_5">
+              {% else %}
+               <li class="container3d relative f_xs_none m_xs_bottom_5">
+              {% endif %}
                 <a class="color_dark fs_large relative r_xs_corners" href="/novedades">
                 Novedades
                 </a>
               </li>
-              <li class="container3d relative f_xs_none m_xs_bottom_5">
+              {% if page.id == "contacto" %}
+               <li class="current container3d relative f_xs_none m_xs_bottom_5">
+              {% else %}
+               <li class="container3d relative f_xs_none m_xs_bottom_5">
+              {% endif %}
                 <a class="color_dark fs_large relative r_xs_corners" href="/contacto">
                  Contacto
                 </a>
               </li>
-              <li class="container3d relative f_xs_none m_xs_bottom_5">
+              {% if page.id == "soporte" %}
+               <li class="current container3d relative f_xs_none m_xs_bottom_5">
+              {% else %}
+               <li class="container3d relative f_xs_none m_xs_bottom_5">
+              {% endif %}
                 <a class="color_dark fs_large relative r_xs_corners" href="/soporte">Soporte
                 </a>
               </li>

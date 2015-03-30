@@ -66,7 +66,7 @@
 			    	var api = $(sliderCollection[0]).revolution({
 				        delay:5000,
 						startwidth:1170,
-						startheight:500,
+						startheight:600,
 						hideThumbs:0,
 						fullWidth:"on",
 			     		hideTimerBar:"on",
