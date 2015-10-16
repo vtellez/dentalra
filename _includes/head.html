@@ -55,13 +55,13 @@
     <!--header markup-->
     <header role="banner" class="relative type_2">
       <span class="gradient_line"></span>
-     
+
       <section class="header_bottom_part type_2 bg_light">
         <div class="container">
           <!--logo-->
           <div class="t_align_c">
             <a href="/" class="d_inline_m m_xs_bottom_10">
-              <img src="{{ '/land/images/logo.png' | prepend: site.baseurl }}">
+            <img src="/land/images/logo.png" style="max-width: 550px;">
             </a>
           </div>
         </div>
@@ -77,59 +77,51 @@
           <nav role="navigation" class="d_inline_m d_xs_none m_xs_right_0 m_right_15 m_sm_right_5 t_align_l m_xs_bottom_15">
             <ul class="hr_list main_menu type_2 fw_light">
               {% if page.id == "main" %}
-               <li class="current container3d relative f_xs_none m_xs_bottom_5">
-              {% else %}
-               <li class="container3d relative f_xs_none m_xs_bottom_5">
-              {% endif %}
-                <a class="color_dark fs_large relative r_xs_corners" href="/">
-                Inicio
-                </a>
-              </li>
-              {% if page.id == "servicios" %}
-               <li class="current container3d relative f_xs_none m_xs_bottom_5">
-              {% else %}
-               <li class="container3d relative f_xs_none m_xs_bottom_5">
-              {% endif %}
-                <a class="color_dark fs_large relative r_xs_corners" href="/servicios">Servicios
-                </a>
-              {% if page.id == "acceso" %}
-               <li class="current container3d relative f_xs_none m_xs_bottom_5">
-              {% else %}
-               <li class="container3d relative f_xs_none m_xs_bottom_5">
-              {% endif %}
-                <a class="color_dark fs_large relative r_xs_corners" href="{{ url('landing/join') }}"> Promociones
-                </a>
-              </li>
-              {% if page.id == "novedades" %}
-               <li class="current container3d relative f_xs_none m_xs_bottom_5">
-              {% else %}
-               <li class="container3d relative f_xs_none m_xs_bottom_5">
-              {% endif %}
-                <a class="color_dark fs_large relative r_xs_corners" href="/novedades">
-                Novedades
-                </a>
-              </li>
-              {% if page.id == "contacto" %}
-               <li class="current container3d relative f_xs_none m_xs_bottom_5">
-              {% else %}
-               <li class="container3d relative f_xs_none m_xs_bottom_5">
-              {% endif %}
-                <a class="color_dark fs_large relative r_xs_corners" href="/contacto">
-                 Contacto
-                </a>
-              </li>
-              {% if page.id == "soporte" %}
-               <li class="current container3d relative f_xs_none m_xs_bottom_5">
-              {% else %}
-               <li class="container3d relative f_xs_none m_xs_bottom_5">
-              {% endif %}
-                <a class="color_dark fs_large relative r_xs_corners" href="/soporte">Soporte
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </section>
-    </header>
+              <li class="current container3d relative f_xs_none m_xs_bottom_5">
+                {% else %}
+                <li class="container3d relative f_xs_none m_xs_bottom_5">
+                  {% endif %}
+                  <a class="color_dark fs_large relative r_xs_corners" href="/">
+                    Inicio
+                  </a>
+                </li>
+                {% if page.id == "servicios" %}
+                <li class="current container3d relative f_xs_none m_xs_bottom_5">
+                  {% else %}
+                  <li class="container3d relative f_xs_none m_xs_bottom_5">
+                    {% endif %}
+                    <a class="color_dark fs_large relative r_xs_corners" href="/servicios">Servicios
+                    </a>
+                    {% if page.id == "novedades" %}
+                    <li class="current container3d relative f_xs_none m_xs_bottom_5">
+                      {% else %}
+                      <li class="container3d relative f_xs_none m_xs_bottom_5">
+                        {% endif %}
+                        <a class="color_dark fs_large relative r_xs_corners" href="/novedades">
+                          Novedades
+                        </a>
+                      </li>
+                      {% if page.id == "contacto" %}
+                      <li class="current container3d relative f_xs_none m_xs_bottom_5">
+                        {% else %}
+                        <li class="container3d relative f_xs_none m_xs_bottom_5">
+                          {% endif %}
+                          <a class="color_dark fs_large relative r_xs_corners" href="/contacto">
+                           Contacto
+                         </a>
+                       </li>
+                       {% if page.id == "soporte" %}
+                       <li class="current container3d relative f_xs_none m_xs_bottom_5">
+                        {% else %}
+                        <li class="container3d relative f_xs_none m_xs_bottom_5">
+                          {% endif %}
+                          <a class="color_dark fs_large relative r_xs_corners" href="/soporte">Soporte
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </section>
+              </header>
 
-    <hr class="divider_type_2">  
+              <hr class="divider_type_2">  

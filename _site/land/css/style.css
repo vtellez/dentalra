@@ -2456,13 +2456,13 @@ hr{
 .bg_gradient,
 .divider_type_2,.gradient_line,#qLbar{
 	background:#55c0db;
-	background:-webkit-gradient(linear,left top,right top,from(#55c0db),to(#80c217));
-	background:-webkit-linear-gradient(left,#55c0db,#80c217);
-	background:-moz-linear-gradient(left,#55c0db,#80c217);
-	background:-o-linear-gradient(left,#55c0db,#80c217);
-	background:-ms-linear-gradient(left,#55c0db,#80c217);
-	background:linear-gradient(left,#55c0db,#80c217);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#55c0db', endColorstr='#80c217',GradientType=1 );
+	background:-webkit-gradient(linear,left top,right top,from(#55c0db),to(#838383));
+	background:-webkit-linear-gradient(left,#55c0db,#838383);
+	background:-moz-linear-gradient(left,#55c0db,#838383);
+	background:-o-linear-gradient(left,#55c0db,#838383);
+	background:-ms-linear-gradient(left,#55c0db,#838383);
+	background:linear-gradient(left,#55c0db,#838383);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#55c0db', endColorstr='#838383',GradientType=1 );
 }
 .divider_type_2,.gradient_line{
 	height:3px;
