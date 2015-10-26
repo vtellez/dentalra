@@ -1,0 +1,19 @@
+# Site settings
+baseurl: ""
+
+title: "Clínica Dental República Argentina"
+desc: "Clínica Dental República Argentina Córdoba"
+url: "http://www.dentalrepublicaargentina.com"
+
+description: "Clínica Dental República Argentina Córdoba"
+email: "clinicadental.ra@gmail.com"
+phone: "(+34) 957 044 644"
+location: "Avd. República Argentina, nº 24<br/> 14004, Córdoba"
+
+linkedin:  "https://www.linkedin.com"
+facebook: "https://www.facebook.com/facebook"
+twitter: "https://twitter.com/"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
